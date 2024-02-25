@@ -1,0 +1,111 @@
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+  }
+
+body {
+
+    background-color: #ffffff;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+    height: 180px;
+    background-color: #ffffff;
+  
+}
+
+
+h3{
+    font-size: small;
+}
+
+.spanish-flag {
+    margin-top: 0;
+    padding: 5px;
+    float: right;
+    width: 30px;
+}
+
+.english-flag {
+    margin-top: 0;
+    padding: 5px;
+    float: right;
+    width: 30px;
+}
+
+
+main { 
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro-paragraph {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 500px;
+    color: #364c7d;
+}
+
+#left-content {
+    float: left;
+    width: 200px;
+    padding-left: 20px;
+}
+
+#left-center {
+    float: left;
+    width: 250px;
+    padding-left: 40px;
+}
+
+#right-center {
+    padding-top: 22px;
+    padding-left: 10px;
+    line-height: 28px;
+    float: left;
+    width: 200px;
+}
+
+#right-content {
+    float: right;
+    width: 200px;
+}
+
+#right-content iframe {
+    margin-left: 24px;
+}
+
+
+
+#hero-section {
+    background-image:  url("/images/itbf_headquaters-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: clamp(100px, 20vh, 200px) 0;
+}
+
+
+footer {
+    clear: both;
+    padding-top: 20px;
+    text-align: center;
+    height: 150px;
+    background-color: #ffffff;
+    color: #38211b;
+}
+
+footer p {
+    padding-top: 20px;
+}
+
+.card-img-top {
+    padding: 5px;
+}
